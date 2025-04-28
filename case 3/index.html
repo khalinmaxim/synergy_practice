@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Красивый слайдер изображений</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="slider-container">
+    <h1>Галерея путешествий</h1>
+    <div class="slider">
+        <div class="slide">
+            <img src="images/pic1.jpg" alt="Природа 1">
+        </div>
+        <div class="slide">
+            <img src="images/pic2.jpg" alt="Природа 2">
+        </div>
+        <div class="slide">
+            <img src="images/pic3.jpg" alt="Природа 3">
+        </div>
+        <div class="slide">
+            <img src="images/pic4.jpg" alt="Природа 4">
+        </div>
+        <div class="slide">
+            <img src="images/pic5.jpg" alt="Природа 5">
+        </div>
+    </div>
+
+    <div class="slider-controls">
+        <button class="prev-btn" aria-label="Предыдущее изображение">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/>
+            </svg>
+        </button>
+
+        <div class="slide-counter">Изображение 1 из 5</div>
+
+        <button class="next-btn" aria-label="Следующее изображение">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
